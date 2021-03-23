@@ -687,6 +687,85 @@ body {
     padding: 53px 0 108px 0;
 }
 
+.author {
+    border-top: 1px solid #EAE9F2;
+    background-color: #F2F2F2;
+}
+
+.author .container {
+    padding-bottom: 110px;
+}
+
+.author-title {
+    padding: 85px 0;
+    text-align: center;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1.87579px;
+    color: #19191B;
+}
+
+.author-img {
+    object-fit: contain;
+    margin-right: 50px;
+    width: 300px;
+}
+
+.author-about {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.author-about div {
+    width: 50%;
+}
+
+.social {
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.500211px;
+    color: #696871;
+}
+
+.twitter,
+.Email {
+    margin: 0 10px;
+    color: black;
+    font-weight: 500;
+}
+
+.author-about-title {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.750316px;
+    color: #19191B;
+    margin-bottom: 30px;
+}
+
+.author-about-info {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.500211px;
+    color: #696871;
+    margin-bottom: 30px;
+}
+
+.author-about-info2 {
+     font-size: 16px;
+     line-height: 28px;
+     letter-spacing: -0.500211px;
+     color: #696871;
+     margin-bottom: 30px;
+}
+
+
 
 
 
