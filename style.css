@@ -184,7 +184,7 @@ body {
 
 .life {
     background-color: #F2F2F2;
-    
+    border-bottom: 1px solid #EAE9F2;
 }
 
 .life .container {
