@@ -50,6 +50,28 @@ body {
     }
 }
 
+@media (max-width: 1120px) {
+    .container-fluid {
+        width: 1000px;
+    }
+
+    .container {
+        width: 900px;
+    }
+
+}
+
+@media (max-width: 1020px) {
+    .container-fluid {
+        width: 900px;
+    }
+
+    .container {
+        width: 800px;
+    }
+
+}
+
 .nav {
     background-color: #F2F2F2;
 }
@@ -218,23 +240,28 @@ body {
     color: #19191B;
 }
 
+.life-content-item {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
 .button {
     display: flex;
     align-items: center;
     border: none;
-    margin-top: 20px;
 }
 
 .button:focus {
     outline: none;
 }
 
-.button-text {
+.life-content-item-info {
     font-size: 21px;
     line-height: 25px;
     letter-spacing: -0.656526px;
     color: #19191B;
-    margin-lefx: 10px;
+    margin-left: 10px;
 }
 
 .life-content-link {
