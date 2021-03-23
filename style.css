@@ -559,6 +559,12 @@ body {
     padding: 15px 30px;
     background-color: red;
     border-radius: 5px;
+    transition: 0.4s;
+}
+
+.learn-div-link:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px rgb(94, 93, 93);
 }
 
 .learn-list2 {
@@ -595,6 +601,11 @@ body {
     letter-spacing: -0.656526px;
     color: #696871;
     margin-top: 30px;
+}
+
+.Reviews {
+    border-top: 1px solid #EAE9F2;
+    background-color: #F2F2F2;
 }
 
 .Reviews-title {
@@ -664,6 +675,16 @@ body {
     line-height: 28px;
     letter-spacing: -0.500211px;
     color: #696871;
+}
+
+.Reviews-link {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.500211px;
+    text-decoration-line: underline;
+    color: #5454D4;
+    padding: 53px 0 108px 0;
 }
 
 
