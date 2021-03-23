@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 ul , ol {
     list-style: none;
 }
@@ -294,6 +298,10 @@ body {
     background-color: #F2F2F2;
 }
 
+.chapter .container {
+    position: relative;
+}
+
 .chapter-title {
     text-align: center;
     padding: 74px 0 20px 0;
@@ -358,6 +366,75 @@ body {
     color: #19191B;
 }
 
+.chapter-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 112px;
+}
+
+.chapter-item {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 50px ;
+}
+
+.chapter-button {
+    border: none;
+    cursor: pointer;
+    margin-bottom: 32px;
+}
+
+.chapter-button:focus {
+    outline: none;
+}
+
+.chapter-button img {
+    object-fit: contain;
+}
+
+.chapter-item-title {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.750316px;
+    color: #19191B;
+    margin-bottom: 20px;
+}
+
+.chapter-item-info {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.500211px;
+    color: #696871;
+}
+
+.chapter-box-right-button {
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 47%;
+    left: 97.5%;
+}
+
+.chapter-box-right-button:focus {
+    outline: none;
+}
+
+.chapter-box-left-button {
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 47%;
+    right: 97.5%;
+}
+
+.chapter-box-left-button:focus {
+    outline: none;
+}
 
 
 
