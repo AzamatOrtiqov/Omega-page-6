@@ -59,6 +59,9 @@ body {
         width: 900px;
     }
 
+    .life .container {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 1020px) {
@@ -81,6 +84,8 @@ body {
         width: 700px;
         border: 1px solid black;
     }
+
+    
 
 }
 
@@ -243,6 +248,7 @@ body {
 .life-content-section,
 .life-photo-section {
     width: 46%;
+    border: 1px solid black;
 }
 
 .life-content-title {
@@ -350,3 +356,7 @@ body {
     padding: 10px 320px 20px 320px;
 }
 
+
+.chapter-box {
+    
+}
