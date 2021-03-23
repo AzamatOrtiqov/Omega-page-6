@@ -13,6 +13,9 @@ img {
     height: auto;
 }
 
+a {
+    display: block;
+}
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -177,5 +180,100 @@ body {
 
 .subdropdown:hover .subdropdown-icon {
     transform: rotate(90deg);
+}
+
+.life {
+    background-color: #F2F2F2;
+}
+
+.life .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 150px 0;
+}
+
+.life-content-section,
+.life-photo-section {
+    width: 46%;
+}
+
+.life-content-title {
+    font-size: 50px;
+    margin-bottom: 55px;
+    line-height: 70px;
+    letter-spacing: -1.87579px;
+    color: #19191B;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    border: none;
+    margin-top: 20px;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button-text {
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: -0.656526px;
+    color: #19191B;
+    margin-lefx: 10px;
+}
+
+.life-content-link {
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.656526px;
+    padding: 10px 20px;
+    background-color: #F0544C;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    display: inline-block;
+    margin: 40px auto 15px auto;
+}
+
+.life-content-footer {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.562737px;
+    color: #19191B;
+}
+
+.life-content-footer a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.life-footer {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 5px;
+}
+
+
+.life-footer-info {
+    margin-left: 30px;
+}
+
+.life-footer-info i {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 21px;
+    line-height: 39px;
+    letter-spacing: -0.656526px;
+    color: #19191B;
 }
 
