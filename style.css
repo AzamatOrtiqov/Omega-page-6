@@ -328,3 +328,25 @@ body {
     color: #19191B;
 }
 
+.chapter {
+    background-color: #F2F2F2;
+}
+
+.chapter-title {
+    text-align: center;
+    padding: 74px 0 20px 0;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1.87579px;
+    color: #19191B;
+}
+
+.chapter-info {
+    font-size: 21px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: -0.656526px;
+    color: #696871;
+    padding: 10px 320px 20px 320px;
+}
+
