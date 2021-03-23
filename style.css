@@ -72,8 +72,21 @@ body {
 
 }
 
+@media (max-width: 920px) {
+    .container-fluid {
+        width: 800px;
+    }
+
+    .container {
+        width: 700px;
+        border: 1px solid black;
+    }
+
+}
+
 .nav {
     background-color: #F2F2F2;
+    margin-bottom: -1%;
 }
 
 .nav .container-fluid {
@@ -234,7 +247,7 @@ body {
 
 .life-content-title {
     font-size: 50px;
-    margin-bottom: 55px;
+    padding-bottom: 55px;
     line-height: 70px;
     letter-spacing: -1.87579px;
     color: #19191B;
