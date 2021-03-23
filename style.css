@@ -597,7 +597,74 @@ body {
     margin-top: 30px;
 }
 
+.Reviews-title {
+    padding: 75px 0 20px 0;
+    text-align: center;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: -1.87579px;
+    color: #19191B;
+}
 
+.Reviews-info {
+    font-size: 21px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: -0.656526px;
+    color: #696871;
+    padding: 20px 320px 60px 320px;
+}
+
+.Reviews-item {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Reviews-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Rreviews-item-img {
+    object-fit: contain;
+    width: 120px;
+    margin-bottom: 30px;
+}
+
+.Reviews-item-info {
+    font-size: 21px;
+    line-height: 39px;
+    letter-spacing: -0.656526px;
+    color: #19191B;
+    margin-bottom: 40px;
+}
+
+.Reviews-item-poeple {
+    margin-top: auto;
+    display: flex;
+}
+
+.Reviews-item-poeple-img {
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.Reviews-item-poeple-title {
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: -0.656526px;
+    color: #19191B;
+    margin-bottom: 5px;
+}
+
+.Reviews-item-poeple-info {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.500211px;
+    color: #696871;
+}
 
 
 
